@@ -1,0 +1,132 @@
+/* color palette: 
+#072227 - darkest
+#35858B - darker
+#4FBDBA - lighter 
+#b1e8e9 - lightest
+*/
+/* 
+Important Sites
+1. https://cssgradient.io/ - for making css gradients
+2. https://cssbuttoncreator.com/ - for buttons
+*/
+
+/* element selectors  */
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+}
+h1{
+    margin-top: 50;
+    width: 70%;
+    margin: 0 auto ;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+    font-size: 5.625rem;
+    color:#072227 ;
+    line-height: 0.75;
+}
+p{
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-family: 'Merriweather', serif;
+    color:#35858B;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+}
+a{
+    text-decoration: none;
+    color: #35858B;
+    margin: 0 30px;
+}
+/* containers */
+.top-container{
+    background: rgb(62,201,219);
+    /* https://cssgradient.io/ - for making css gradients */
+    background: linear-gradient(180deg, rgba(62,201,219,1) 0%, rgba(255,255,255,1) 79%, rgba(255,255,255,1) 100%);
+    padding-top: 100px;
+    height: 40vh;
+}
+.middle-container{
+    text-align: center;
+}
+.bottom-container{
+    background: rgb(62,201,219);
+    padding: 12px;
+    justify-content: space-between;
+}
+/* sections  */
+.Education, .Skills{
+    margin-top: 5%;
+}
+/* Rows  */
+.Education-Row, .Skill-Row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+}
+/* Images  */
+.Profile-Image{
+    width: 15%;
+}
+.College-Image{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+.Skill-Image{
+    width: 15%;
+    float: left;
+    margin-right: 30px;
+}
+/* buttons   */
+
+/* https://cssbuttoncreator.com/ - for buttons */
+
+.BUTTON_CDF {
+    background: #35858B;
+    background-image: -webkit-linear-gradient(top, #35858B, #4FBDBA);
+    background-image: -moz-linear-gradient(top, #35858B, #4FBDBA);
+    background-image: -ms-linear-gradient(top, #35858B, #4FBDBA);
+    background-image: -o-linear-gradient(top, #35858B, #4FBDBA);
+    background-image: -webkit-gradient(to bottom, #35858B, #4FBDBA);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Arial;
+    width: 150px;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 29px;
+    border: solid #35858B 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 15px 0px;
+ }
+ 
+ .BUTTON_CDF:hover {
+    border: solid #35858B 1px;
+    background: #35858B;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
